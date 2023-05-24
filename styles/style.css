@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+
+    --corFundo: #00030c;
+    --corBancoPrincipal: #ffffff;
+    --corSecundario: #c0c0c0;
+    --corAzulBotao: #167bf7;
+    --fontPrincipal: 'Inter', sans-serif;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: var(--corFundo);
+    color: var(--corBancoPrincipal);
+    font-family: var(--fontPrincipal);
+}
+
+.container {
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+
+    background-image: url('/assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container_caixa {
+
+    margin: 0 3rem 6rem;
+}
+
+.container_titulo_principal {
+
+    color: var(--corBancoPrincipal);
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container_imagem_combo {
+
+    margin: 1rem 0 2rem 0;
+}
+
+.container_botao {
+
+    background-color: var(--corAzulBotao);
+    color: var(--corBancoPrincipal);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container_caixa a:hover {
+
+    background-color: #0315b1;
+}
+
+.botao_secundario {
+
+    background-color: transparent;
+    border: 2px solid var(--corBancoPrincipal);
+}
+
+.container_aviso {
+
+    font-size: 0.75rem;
+    color: var(--corSecundario);
+}
+
+/* Configuração segunda section*/
+
+.secundario {
+
+    align-items: center;
+}
+
+.container_imagem_plataforma {
+
+    width: auto;
+    margin: 0 11rem;
+}
+
+.container_plataforma {
+
+    margin: 0 3rem;
+}
+
+.plataforma_titulo {
+
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+/* Configuração terceira section*/
+
+.plataforma_texto {
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--corSecundario);
+}
+
+.container_telas {
+
+    padding-left: 7rem;
+}
+
+.telas_texto {
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--corSecundario);
+}
+
+.botao_assine_combo {
+
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.container_imagem_telas {
+
+    margin-left: 3rem;
+}
+
+/* Configuração quarta section*/
+
+.container_imagem_notebook {
+
+    margin: 0 8rem;
+
+}
+
+.container_notebook {
+
+    margin: 0 3rem;
+}
+
+.container_notebook_titulo {
+
+    font-size: 3rem;
+    color: var(--corBancoPrincipal);
+}
+
+/* Configuração dos dispositivos*/
+
+.container_dispositivos {
+
+    text-align: center;
+}
+
+.dispositivos_titulo {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.dispositivos_lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.descricao_item {
+
+    font-size: 2rem;
+}
+
+/* Configuração do rodape (footer)*/
+.rodape {
+
+    text-align: center;
+}
+
+.rodape_imagem {
+
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.rodape_lista {
+
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.lista_link {
+
+    text-decoration: none;
+    color: var(--corBancoPrincipal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.rodape_lista a:hover {
+
+    color: var(--corAzulBotao);
+}
+
+.rodape_texto {
+
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+    color: var(--corSecundario);
+}
